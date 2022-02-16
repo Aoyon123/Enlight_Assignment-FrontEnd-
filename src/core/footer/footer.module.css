@@ -1,0 +1,46 @@
+.footerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  background-color: rgb(45, 45, 100);
+  padding: 2rem;
+}
+.footerContainer h2 {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 2rem;
+}
+p {
+  font-size: 1.6rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.copyrightSection {
+  padding: 20px 20px 20px 20px;
+  background-color: black;
+  text-decoration: none;
+}
+
+.footerContainer li {
+  font-size: 16px;
+  color: aliceblue;
+}
+.footerContainer li:hover {
+  font-size: 16px;
+  color: orangered;
+}
+
+.footerContainer h2:hover {
+  color: orangered;
+  font-size: 2.3rem;
+}
+.footerContainer h4 {
+  color: aliceblue;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+}
+.footerContainer h4:hover {
+  color: orangered;
+}
+

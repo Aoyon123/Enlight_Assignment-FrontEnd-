@@ -1,0 +1,90 @@
+.cardContainer {
+  width: 100%;
+  height: fit-content;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+.cardContainer:hover {
+  box-shadow: 2px 2px 20px rgb(0 0 0 / 10%);
+}
+.cardHedaderImages {
+  width: 100%;
+  height: fit-content;
+  /* background-color: ; */
+
+  gap: 0.5rem;
+  position: relative;
+  margin-bottom: 8rem;
+  border-radius: 1rem;
+  /* overflow: hidden; */
+}
+.cardHedaderImages img:first-child {
+  border-radius: 1rem 0 0 1rem;
+}
+.cardHedaderImages img:nth-last-child(2) {
+  border-radius: 0 1rem 1rem 0;
+}
+.dressImg {
+  width: 100%;
+  height: 15rem;
+
+  object-fit: cover;
+}
+.cardTitle {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.cardDetails {
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+
+  color: #757575;
+}
+.cardDetails span {
+  color: #139372;
+}
+.cardContent {
+  margin-bottom: 5rem;
+}
+.productGroups {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+
+  color: #757575;
+}
+.btnDetails {
+  outline: none;
+  border: none;
+  background-color: #d1ffd0;
+  color: #139372;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.cardHeader {
+  width: 100%;
+}
+.cardHeaderAuthor {
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  /* padding: 0.2rem; */
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userPic {
+  width: 100%;
+  height: 20rem;
+  object-fit: contain;
+}

@@ -1,0 +1,12 @@
+.cartContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.productViewContainer {
+  padding: 0.5rem 3rem;
+}
+.productViewContainer h1 {
+  text-align: center;
+  padding: 1rem 0;
+}

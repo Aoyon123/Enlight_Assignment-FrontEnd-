@@ -1,0 +1,34 @@
+.detailsContainer {
+  width: 100%;
+  /* height: 50rem; */
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 1fr;
+  gap: 1rem;
+
+  padding: 5rem;
+}
+.otherImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  /* background-color: red; */
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  cursor: pointer;
+}
+.mainImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  /* background-color: red; */
+}
+.otherImageContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 50rem;
+  row-gap: 1rem;
+}
+.mainImageContainer {
+  width: 100%;
+  height: 50rem;
+}
